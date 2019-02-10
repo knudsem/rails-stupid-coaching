@@ -13,6 +13,8 @@ class QuestionsController < ApplicationController
       @answer = ' Great !'
     elsif @question == 'hello there'
       @answer = 'GENERAL KENOBI !'
+    elsif @question == ""
+      @answer = "it's empty dummy"
     else
       @answer = 'I don\'t care, get dressed and go to work!'
     end

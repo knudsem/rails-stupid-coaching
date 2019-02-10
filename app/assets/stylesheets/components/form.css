@@ -1,0 +1,13 @@
+
+.mazal{
+margin-top: 15vh;
+}
+.thecoach{
+  height: 60vh;
+  object-fit: contain;
+  background-image: url('thecoach.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 100%;
+}
